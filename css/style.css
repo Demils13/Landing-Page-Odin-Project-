@@ -1,0 +1,267 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: Roboto, sans-serif;
+}
+
+
+
+/******************************************
+/* Navigation
+/*******************************************/
+
+.navigation {
+     display: flex;
+     background-color: #1F2937;
+     padding: 20px;
+}
+
+h3 {
+     font-size: 24px;
+     color: #E5E7EB;
+}
+
+.nav-links {
+     display: flex;
+     flex-direction: row;
+     margin-left: auto;
+     text-decoration: none;
+}
+
+.nav-links li {
+     display: inline-block;
+     margin-right: 20px;
+}
+
+a {
+     text-decoration: none;
+     font-size: 18px;
+     color: #E5E7EB;
+}
+
+a:hover {
+     color: #2d80d2;
+}
+
+a:active {
+     color: #ffbf00;
+}
+
+
+/******************************************
+/* Header
+/*******************************************/
+
+.header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 300px;
+     background-color: #1F2937;
+}
+
+.right-side {
+    margin-left: 20px;
+}
+
+h1 {
+     font-size: 48px;
+     font-weight: bolder;
+     color: #F9FAF8;
+}
+
+h1 + p {
+     font-size: 18px;
+     color: #E5E7EB;
+     margin-top: 5px;
+}
+
+.button-header {
+     color: #fff;
+     background-color: #3882F6;
+     margin-top: 15px;
+     padding: 5px;
+     padding-right: 15px;
+     padding-left: 15px;
+     border: 1px solid #1F2937;
+     border-radius: 5px;
+}
+
+.left-side {
+     margin-right: 30px;
+}
+
+
+/******************************************
+/* Section 1
+/*******************************************/
+
+.squares {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     height: 200px;
+}
+
+h2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 36px;
+     font-weight: bolder;
+     color: #1F2937;
+     padding: 20px;
+}
+
+.section-1-list {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+.section-1 li {
+     display: flex;
+     flex-direction: row;
+}
+
+.squares {
+     height: 250px;
+}
+
+.card-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .card {
+     text-align: center;
+     max-width: 200px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: .5em;
+ }
+ 
+ .square {
+     border: 2px solid #3882F6;
+     border-radius: 20px;
+     width: 100px;
+     height: 100px;
+ }
+
+ .paragraph {
+     font-size: 14px;
+ }
+
+
+/******************************************
+/* Section 2
+/*******************************************/
+
+.section-2 {
+     height: 230px;
+     background-color: #E5E7EB;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.thor {
+     font-weight: bold;
+     margin-left: 160px;
+}
+
+
+/******************************************
+/* Section 3
+/*******************************************/
+
+.section-3 {
+     height: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 18px;
+
+}
+
+.section-3-blue {
+     height: 100px;
+     width: 800px;
+     border: 1px solid #3882F6;
+     background-color: #3882F6;
+     border-radius: 5px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.action-time {
+     font-size: 18px;
+}
+
+.section-3-left {
+     font-size: 12px;
+     color: #E5E7EB;
+}
+
+.section-3-button {
+     margin-top: 15px;
+     padding: 5px;
+     padding-right: 15px;
+     padding-left: 15px;
+     border: 1px solid #fff;
+     border-radius: 5px;
+     color: #fff;
+     background-color: #3882F6;
+     font-weight: bold;
+}
+
+/******************************************
+/* Footer
+/*******************************************/
+
+footer {
+     height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #1F2937;
+     color: #F9FAF8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
